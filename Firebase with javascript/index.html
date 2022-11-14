@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main_div">
+      <div class="email">
+        <label for="email">Email : </label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your Email"
+          name="email"
+        />
+      </div>
+      <div class="password">
+        <label for="email">Password : </label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          name="password"
+        />
+      </div>
+      <div class="btn">
+        <button onclick="register()" class="submit_btn">Submit</button>
+        <button onclick="login()" class="submit_btn">Sign In</button>
+        <button onclick="save()" class="submit_btn">Save Data</button>
+        <button onclick="readData()" class="submit_btn">Read Data</button>
+        <button onclick="updateData()" class="submit_btn">Update Data</button>
+        <button onclick="deleteData()" class="submit_btn">Delete Data</button>
+      </div>
+    </div>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,30 @@
+.main_div{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit_btn{
+    margin-top: 10px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    background-color: beige;
+    border: 2px solid rgb(176, 176, 240);
+}
+
+.submit_btn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 255, 242);
+    /* color: white; */
+    border: 3px solid black;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+button{
+    margin: 5px;
+}
